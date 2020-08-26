@@ -17,7 +17,7 @@ weatherForm.addEventListener('submit', (event) => {
             }
             else {
                 messageOne.textContent = 'The weather forecast for: ' + data.location
-                messageTwo.innerHTML = 'Description: ' + data.description + '<br />Temperature: ' + data.temperature + '<br />Feels like: ' + data.feelslike 
+                messageTwo.innerHTML = 'Description: ' + data.description + '<br />Temperature: ' + data.temperature + '<br />Feels like: ' + data.feelslike + '<br />Humidity: ' + data.humidity
             }
         })
     })
